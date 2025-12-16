@@ -79,7 +79,7 @@ def run_prediction():
     
     # 5. Visualisation (Zoom sur les 100 derniers jours)
     plt.figure(figsize=(12, 6))
-    last_n = 100
+    last_n = 900
     
     # La ligne de confiance (proba de hausse)
     plt.plot(history_probs[-last_n:], label="Probabilité de Hausse (CTW)", color='blue')
